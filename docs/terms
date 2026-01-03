@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务条款 - VVStudio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>">
+    <style>
+        :root {
+            --primary-color: #007AFF;
+            --text-color: #333;
+            --bg-color: #fff;
+            --border-color: #e0e0e0;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #0A84FF;
+                --text-color: #f5f5f7;
+                --bg-color: #000;
+                --border-color: #333;
+            }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            padding: 20px;
+        }
+        
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .app-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+            font-size: 13px;
+            color: #888;
+        }
+        
+        h2 {
+            font-size: 20px;
+            margin: 40px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        h3 {
+            font-size: 16px;
+            margin: 25px 0 10px 0;
+            color: var(--primary-color);
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin: 15px 0 15px 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box {
+            background: rgba(0, 122, 255, 0.05);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .contact-info {
+            background: var(--border-color);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        
+        .language-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+        
+        .language-switcher select {
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+        
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .app-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+            
+            .language-switcher {
+                position: static;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-info">
+                <div class="app-icon">VV</div>
+                <div>
+                    <h1>服务条款</h1>
+                    <div class="subtitle">VVStudio 应用程序</div>
+                </div>
+            </div>
+            
+            <div class="meta-info">
+                <div>📅 最后更新：2024年1月1日</div>
+                <div>🌐 版本：1.0</div>
+                <div>👥 适用：所有用户</div>
+            </div>
+        </header>
+        
+        <div class="language-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="terms.html" selected>简体中文</option>
+                <option value="terms-en.html">English</option>
+            </select>
+        </div>
+        
+        <div class="highlight-box">
+            <strong>重要提示：</strong>请仔细阅读本服务条款。使用本应用即表示您同意遵守所有条款和条件。
+        </div>
+        
+        <h2>1. 接受条款</h2>
+        <p>通过下载、安装、访问或使用 VVStudio 应用程序（以下简称"本应用"），您确认已阅读、理解并同意受本服务条款的约束。如果您不同意这些条款，请不要使用本应用。</p>
+        
+        <h2>2. 订阅服务</h2>
+        
+        <h3>2.1 订阅类型</h3>
+        <p>本应用提供以下订阅选项：</p>
+        <ul>
+            <li><strong>月度订阅</strong>：自动每月续订</li>
+            <li><strong>年度订阅</strong>：自动每年续订，享受更优价格</li>
+        </ul>
+        
+        <h3>2.2 价格与付款</h3>
+        <ul>
+            <li>所有价格均以美元（USD）显示，实际收费金额可能因汇率和当地税费而异</li>
+            <li>付款将通过您的 App Store 或 Google Play 账户收取</li>
+            <li>我们保留随时调整订阅价格的权利，但会提前通知现有用户</li>
+        </ul>
+        
+        <h3>2.3 自动续订</h3>
+        <p>订阅会在每个周期结束时自动续订，除非在当前订阅期结束前至少 24 小时关闭自动续订。</p>
+        
+        <h2>3. 免费试用</h2>
+        <p>如果提供免费试用期：</p>
+        <ul>
+            <li>试用期结束时，除非您取消，否则将自动开始收费订阅</li>
+            <li>每个 Apple ID/Google 账户仅可享受一次免费试用</li>
+            <li>试用期内随时可以取消，不会产生费用</li>
+        </ul>
+        
+        <h2>4. 取消与退款</h2>
+        
+        <h3>4.1 如何取消订阅</h3>
+        <p>要取消订阅：</p>
+        <ol>
+            <li>打开 App Store 或 Google Play Store</li>
+            <li>访问您的账户设置</li>
+            <li>找到"订阅"管理页面</li>
+            <li>选择 VVStudio 并取消订阅</li>
+        </ol>
+        
+        <h3>4.2 退款政策</h3>
+        <p>所有购买均由 Apple 或 Google 处理。退款请求必须通过：</p>
+        <ul>
+            <li><strong>Apple 用户</strong>：访问 reportaproblem.apple.com</li>
+            <li><strong>Google 用户</strong>：访问 play.google.com/store/account</li>
+        </ul>
+        <p>我们无法直接处理退款请求。</p>
+        
+        <h2>5. 用户责任</h2>
+        <p>您同意：</p>
+        <ul>
+            <li>提供准确、真实的账户信息</li>
+            <li>遵守所有适用的法律和法规</li>
+            <li>不滥用、干扰或攻击本应用服务</li>
+            <li>不尝试未经授权访问其他用户的账户</li>
+        </ul>
+        
+        <h2>6. 服务变更与终止</h2>
+        <ul>
+            <li>我们保留随时修改、暂停或终止服务的权利</li>
+            <li>重要变更会提前通知用户</li>
+            <li>如果违反本条款，我们可能终止您的访问权限</li>
+        </ul>
+        
+        <h2>7. 免责声明</h2>
+        <p>本应用按"原样"提供，不提供任何明示或暗示的保证。我们不对以下情况负责：</p>
+        <ul>
+            <li>服务的暂时不可用</li>
+            <li>数据丢失或损坏</li>
+            <li>第三方行为造成的损失</li>
+        </ul>
+        
+        <h2>8. 联系我们</h2>
+        <div class="contact-info">
+            <p><strong>VVStudio 团队</strong></p>
+            <p>📧 邮箱：<a href="mailto:support@vvstudio.co">support@vvstudio.co</a></p>
+            <p>🌐 网站：<a href="https://vvstudio.co">vvstudio.co</a></p>
+            <p>⏰ 响应时间：我们会在 48 小时内回复您的咨询</p>
+        </div>
+        
+        <footer>
+            <p>© 2024 VVStudio. 保留所有权利。</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy.html">隐私政策</a> | 
+                <a href="index.html">首页</a> | 
+                <a href="mailto:support@vvstudio.co">联系我们</a>
+            </p>
+        </footer>
+    </div>
+    
+    <script>
+        // 自动更新年份
+        document.addEventListener('DOMContentLoaded', function() {
+            const year = new Date().getFullYear();
+            document.querySelector('footer p').innerHTML = 
+                document.querySelector('footer p').innerHTML.replace('2024', year);
+        });
+    </script>
+</body>
+</html>
